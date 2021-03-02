@@ -1,13 +1,11 @@
-<template>
-  <div class="home">
-
-  </div>
+<template >
+  <div>这是主页</div>
 </template>
-
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue'
 export default defineComponent({
-  name: 'demo',
-  components: { }
+  name:'Home'
 })
 </script>
+<style lang="scss">
+</style>

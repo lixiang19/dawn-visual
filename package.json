@@ -58,18 +58,9 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {}
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged" 
+    "rules": {
+      "interface-name-prefix":{ "prefixWithI": "always", "allowUnderscorePrefix": true }
     }
-  },
-  "lint-staged": {
-    "src/**/*.{jsx,txs,ts,js,json,css,vue}": [
-      "eslint --fix", 
-      "git add" 
-    ]
   },
   "browserslist": [
     "> 1%",

@@ -5,6 +5,7 @@ export function useCssVar (
 ) {
   const variable = ref('')
   const _el = ref(el || window?.document?.documentElement)
+  console.log('🚀 ~ file: useCssVar.ts ~ line 8 ~ _el', _el)
 
   onMounted(() => {
     watch(
